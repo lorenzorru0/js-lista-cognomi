@@ -9,7 +9,7 @@ function aggiungiCognome() {
     console.log(cognomi);
     var index = cognomi.indexOf(cognomeAggiunto) + 1;
 
-    document.getElementById("arrayCognome").innerHTML = 'L array è composto da: ';
+    document.getElementById("arrayCognome").innerHTML = "L' array è composto da: ";
     for (var i = 0; i < cognomi.length; i++) {
         var ul = document.getElementById("cognomiList");
         var li = document.createElement("li");
